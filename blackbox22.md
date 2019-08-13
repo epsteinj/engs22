@@ -44,6 +44,7 @@ classification int main(void) {
 
 	if(linear == true) {
 	//	setup oscilloscope (see figure B);
+	//	find needed R value relative to blackbox R by iteratively testing different Rs
 		resonance_test();
 		if(resonance_test == false) {
 			firstorder_test();
