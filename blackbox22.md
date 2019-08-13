@@ -27,7 +27,7 @@ i_in is some DC current
 ```
 Linearity test algorithm
 
-```
+```c
 classification int main(void) {
 
 	if(V_box(A*x) == A*V_box(x)) {
